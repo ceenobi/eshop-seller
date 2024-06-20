@@ -1,0 +1,119 @@
+* {
+  font-family: "Plus Jakarta Sans Variable", sans-serif;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg-slate-50: #f8fafc;
+  --bg-slate-100: #f1f5f9;
+  --bg-slate-200: #e2e8f0;
+  --bg-teal-600: #0d9488;
+  --bg-gray-400: #64748b;
+  --bg-sky-950: #082f49;
+  --bg-zinc-600: #52525b;
+  --bg-zinc-700: #3f3f46;
+  --bg-zinc-800: #27272a;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit !important;
+}
+
+p,
+span {
+  color: var(--bg-zinc-600) !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.btns {
+  background-color: var(--bg-gray-400) !important;
+}
+
+button {
+  padding: 0.8em 1.2em !important;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s !important;
+  border: none !important;
+}
+
+button:hover {
+  filter: brightness(80%) !important;
+  transition: 0.3s ease-in-out;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+input {
+  font-size: 16px !important;
+}
+
+table {
+  color: var(--bg-zinc-600) !important;
+}
+
+.sidebar {
+  flex: 250px 0 0;
+  background-color: var(--bg-slate-50);
+}
+
+.outlet {
+  flex: 1;
+  background-color: var(--bg-slate-100) !important;
+}
+
+.iconBg {
+  color: var(--bg-zinc-700);
+}
+
+.scrollbody {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbody::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  background-color: var(--bg-slate-200) !important;
+}
+
+.links:hover {
+  background-color: var(--bg-slate-200) !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition: 0.3s ease-in-out !important;
+}
+
+.page-item .page-link {
+  color: var(--bg-zinc-700) !important;
+}
+
+.active .page-link {
+  color: var(--bg-zinc-700) !important;
+  background-color: var(--bg-slate-200) !important;
+  border: none;
+}
+
+.orderIcon {
+  color: var(--bg-teal-600);
+}

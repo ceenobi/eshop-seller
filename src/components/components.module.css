@@ -1,0 +1,25 @@
+.innerSidebar {
+  position: fixed;
+  min-height: 100vh;
+  top: 0;
+  width: 200px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebarItems {
+  background-color: var(--bg-zinc-800);
+}
+.sidebarItems:hover {
+  background-color: var(--bg-zinc-700);
+  transition: 0.3s ease-in;
+}
+.icon:hover {
+  border: 1px solid white !important;
+}
+
+.dropmenu {
+  width: 200px !important;
+}
