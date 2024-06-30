@@ -27,7 +27,6 @@ export default function CustomerOrders() {
     username
   );
   const customerDetails = useMemo(() => data, [data]);
-  console.log(customerDetails);
   const navigate = useNavigate();
   const { customer, customerOrders } = customerDetails;
 

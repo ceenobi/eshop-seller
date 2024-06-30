@@ -69,7 +69,6 @@ export default function Add() {
       enabled: credentials.enabled,
       products: products,
     };
-    console.log(formData);
     const { status, data } = await discountService.createDiscount(
       merchant.merchantCode,
       formData,

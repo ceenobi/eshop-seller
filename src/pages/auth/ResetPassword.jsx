@@ -74,7 +74,6 @@ export default function ResetPassword() {
           />
           <Texts
             className="position-absolute top-50 end-0 translate-middle cursor"
-            role="button"
             onClick={handleHide}
             text={reveal ? <FaRegEyeSlash /> : <FaRegEye />}
           />
@@ -93,7 +92,6 @@ export default function ResetPassword() {
           />
           <Texts
             className="position-absolute top-50 end-0 translate-middle cursor"
-            role="button"
             onClick={handleHideB}
             text={revealB ? <FaRegEyeSlash /> : <FaRegEye />}
           />

@@ -79,7 +79,6 @@ export default function Edit() {
   });
 
   const onFormSubmit = tryCatchFn(async (credentials) => {
-    console.log(credentials);
     const { status, data } = await discountService.updateDiscount(
       merchant.merchantCode,
       discountId,

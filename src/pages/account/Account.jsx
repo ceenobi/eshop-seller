@@ -150,7 +150,6 @@ export default function Account() {
                   />
                   <Texts
                     className="position-absolute top-50 end-0 translate-middle cursor"
-                    role="button"
                     onClick={handleHide}
                     text={reveal ? <FaRegEyeSlash /> : <FaRegEye />}
                   />
@@ -260,7 +259,6 @@ export default function Account() {
           <Texts
             text="Cancel"
             className="fw-bold cursor mt-3"
-            role="button"
             onClick={() => setModalShow(false)}
           />
           <ActionButton
